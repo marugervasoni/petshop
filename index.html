@@ -5,52 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab014a6655.js"></script>
     <title>Petshop</title>
 </head>
 <body>
     <header>
-        <section>
+        <section class="ofertas">
             <p>Grandes ofertas en comederos</p>
-            <ul>
+            <ul type="none">
                 <li>Español</li>
-                <li>$ARG</li>
+                <li>ARG$</li>
             </ul>
         </section>
-        <section>
+        <section class="categorias">
             <img src="./img/logo.PNG" alt="img-logo">
-            <ul>
-                <li>Categorías</li>
-                <li>Pets</li>
-                <li>Nosotros</li>
-                <li>Contactanos</li>
+            <ul type="none">
+                <li><i class="fas fa-paw"></i>Categorías</li>
+                <li><i class="fas fa-paw"></i>Pets</li>
+                <li><i class="fas fa-paw"></i>Nosotros</li>
+                <li><i class="fas fa-paw"></i>Contactanos</li>
             </ul>
         </section>
     </header>
-    <section>
-        <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="img-background">
-        <h2>¡Es un placer tenerte aquí!</h2>
-        <h3>¡Comederos en descuento!</h3>
-        <h4>COMEDEROS</h4>
-    </section>
     <main>
-        <img src="./img/patita.PNG" alt="img-patita">
-        <h1>Productos destacados</h1>
-        <h3>Comederos - Accesorios - Comida</h3>
-        <article>
-            <img src="./img/churrasquito.png" alt="">
-            <h3>Juguete churrasquito</h3>
-            <p>$150</p>
-        </article>
-        <article>
-            <img src="./img/comedero.png" alt="">
-            <h3>Comedero para perro</h3>
-            <p>$150</p>
-        </article>
-        <article>
-            <img src="./img/huesito.png" alt="">
-            <h3>Juguete huesito</h3>
-            <p>$150</p>
-        </article>
+        <section class="bienvenida">
+            <h2>¡Es un placer tenerte aquí!</h2>
+            <h4>¡Comederos en descuento!</h4>
+            <button>COMEDEROS</button>
+        </section>
+        <section class="productos">
+            <section class="caja uno">
+                <img class="patita" src="./img/patita.PNG" alt="img-patita">
+                <h1>Productos destacados</h1>
+                <h3>Comederos - Accesorios - Comida</h3>
+            </section>
+            <section class="caja dos">
+                <article>
+                    <img src="./img/churrasquito.png" alt="">
+                    <h3>Juguete churrasquito</h3>
+                    <p>$150</p>
+                </article>
+                <article>
+                    <img src="./img/comedero.png" alt="">
+                    <h3>Comedero para perro</h3>
+                    <p>$150</p>
+                </article>
+                <article>
+                    <img src="./img/huesito.png" alt="">
+                    <h3>Juguete huesito</h3>
+                    <p>$150</p>
+                </article>
+            </section>
+        </section>
     </main>
     <footer>
         <p>Todos los derechos reservados a MRG</p>

@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.ofertas {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    padding: 0.5rem 3rem 0.5rem 5rem;
+}
+.ofertas ul {
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+}
+
+.categorias {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    padding: 0.5rem 3rem;
+    justify-content: space-between;
+}
+.categorias img {
+    margin: 1rem;
+}
+.categorias ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+}
+
+/* main */
+.bienvenida {
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    width: 100%;
+    height: 600px;
+    background-repeat:repeat;
+    background-position: center;
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 5rem 20rem 5rem 0rem;
+}
+.bienvenida h2, h4, button {
+    /* border: solid red 2px; */
+    height: 50px;
+    /* width: 25%; */
+    text-align: center;
+}
+.bienvenida button {
+    background-color: #F0A83E;
+    color: white;
+    width: 10%;
+    border-radius: 0.3rem;
+    right: 10px;
+    border: none;
+}
+.bienvenida h2 {
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+/* productos */
+.productos, footer {
+    text-align: center;
+}
+.productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.caja {
+    padding: 2rem;
+}
+.dos {
+    width: 70%;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+}
+.patita {
+    width: 7%;
+}
+.productos p {
+    color: #F0A83E;
+    font-weight: bolder;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+}
+
